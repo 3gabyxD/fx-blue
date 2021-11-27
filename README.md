@@ -1,6 +1,6 @@
 # fx-blue
 Roblox Effect Animator
-(Scripting side, check [FX-Blue Plugin](https://github.com/3gabyxD/fx-blue) for the plugin side)
+(Scripting side, check [FX-Blue Plugin](https://github.com/3gabyxD/fx-blue) for the Animation side)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -39,3 +39,4 @@ FXBlue.Broadcast("EffectName", Time)
 ```
 
 ## Documentation
+- TODO(gaby): Documentation
