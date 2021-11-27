@@ -1,7 +1,7 @@
 # fx-blue
 ### Roblox Effect Animator
-(This is my first kinda proffesional plugin so beware of errors and stuff)\
-(Scripting side, check [FX-Blue Plugin](https://github.com/3gabyxD/fx-blue) for the Animation side)
+- This is my first kinda proffesional plugin so beware of errors and stuff
+- Scripting side, check [FX-Blue Plugin](https://github.com/3gabyxD/fx-blue) for the Animation side
 
 ## Table of Contents
 - [Installation](#installation)
