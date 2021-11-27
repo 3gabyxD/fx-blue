@@ -1,0 +1,36 @@
+{
+  "name": "FX-Blue",
+  "tree": {
+    "$className": "DataModel",
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/Server"
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/Client"
+      }
+    },
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Modules": {
+        "$path": "src/Modules"
+      },
+      "Remotes": {
+        "$className": "Folder",
+        "Render": {
+          "$className": "RemoteEvent"
+        },
+        "Request": {
+          "$className": "RemoteEvent"
+        }
+      }
+    }
+
+  }
+}
