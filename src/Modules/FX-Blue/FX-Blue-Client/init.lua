@@ -53,10 +53,10 @@ local function getCurrent(frameset, property, time)
                         --bezier intrpolation
                         if _frame.bezier == nil then
                             _frame.bezier = ease.cubicbezier(
+                                _frame.easing[1][1],
+                                _frame.easing[1][2],
                                 _frame.easing[2][1],
-                                _frame.easing[2][2],
-                                _frame.easing[3][1],
-                                _frame.easing[3][2]
+                                _frame.easing[2][2]
                             )
                         end
                         interpolation = _frame.bezier(position)
